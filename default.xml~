@@ -36,6 +36,6 @@
      <copyfile src="tools/fsl-setup-release.sh" dest="fsl-setup-release.sh"/>
      <copyfile src="README" dest="README-IMXSCM"/>
   </project>
-  <project remote="my-manifest" revision="6c678449309cf892e4966ad37c03e38c35ff2277" name="manifests" path="sources/meta-manifests"/>
+  <project remote="my-manifest" revision="6c678449309cf892e4966ad37c03e38c35ff2277"name="manifests" path="sources/meta-manifests"/>
 
 </manifest>
