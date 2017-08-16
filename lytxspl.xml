@@ -9,8 +9,8 @@
   <remote fetch="https://github.com/quarmtech" name="lytx"/>
 
 
-  <project remote="yocto" revision="master" name="poky" path="sources/poky"/>
-  <project remote="yocto" revision="master" name="meta-freescale" path="sources/meta-freescale"/>
+  <project remote="yocto" revision="5e4bd86130866d4a92fa7b0fa6d3628126dfdf91" name="poky" path="sources/poky"/>
+  <project remote="yocto" revision="438c926745432b0ac77f191e44d10267880c719e" name="meta-freescale" path="sources/meta-freescale"/>
 
   <project remote="oe" revision="master" name="meta-openembedded" path="sources/meta-openembedded"/>
 
