@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <default sync-j="4" revision="master"/>
+
+  <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
+  <remote fetch="https://github.com/Freescale" name="freescale"/>
+  <remote fetch="https://github.com/openembedded" name="oe"/>
+  <remote fetch="https://github.com/quarmtech" name="lytx"/>
+
+
+  <project remote="yocto" revision="master" name="poky" path="sources/poky"/>
+  <project remote="yocto" revision="master" name="meta-freescale" path="sources/meta-freescale"/>
+
+  <project remote="oe" revision="master" name="meta-openembedded" path="sources/meta-openembedded"/>
+
+
+  <project remote="freescale" revision="master" name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/>
+  <project remote="freescale" revision="master" name="meta-freescale-distro" path="sources/meta-freescale-distro"/>
+  <project remote="freescale" revision="master" name="Documentation" path="sources/Documentation"/>
+
+  <project remote="lytx" revision="lytxspl" name="base-conf" path="sources/base">
+	<linkfile dest="README" src="README"/>
+	<linkfile dest="setup-environment" src="setup-environment"/>
+  </project>
+
+  <project remote="lytx" revision="master" name="meta-lytxspl" path="sources/meta-lytxspl"/>
+
+</manifest>
